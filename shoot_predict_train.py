@@ -1,3 +1,6 @@
+# 投篮：shoot检测
+# 目标检测：标注投篮数据集，使用数据集训练200轮后得出best.pt；使用best.pt进行检测
+# 检测精确度较高，为了准确统计投篮次数，防止误报的问题将置信度调整至0.85；每帧都可能检测到投篮，设置冷却时间为0.9s
 from ultralytics import YOLO
 import cv2
 import os

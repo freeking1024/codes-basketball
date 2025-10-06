@@ -1,0 +1,17 @@
+path: /home/jiahao.wu/DATACENTER1/basketball/datasets/shoot
+train: /home/jiahao.wu/DATACENTER1/basketball/datasets/shoot/train/images
+val: /home/jiahao.wu/DATACENTER1/basketball/datasets/shoot/valid/images
+# Classes
+nc: 11  # 添加类别数量
+names:
+  0: basketball
+  1: made
+  2: person
+  3: rim
+  4: shoot
+  5: layup
+  6: dunk
+  7: blockshot
+  8: steal
+  9: pass
+  10: threaten

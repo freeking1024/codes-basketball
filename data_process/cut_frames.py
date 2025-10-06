@@ -1,3 +1,4 @@
+# 视频切帧脚本
 import os
 import cv2
 from pathlib import Path
@@ -35,7 +36,7 @@ def cut_frames_from_videos(video_dir, output_base_dir="output"):
                 extract_frames(file_path, video_output_dir)
                 print(f"完成视频 {filename} 的切帧，保存至 {video_output_dir}")
 
-def extract_frames(video_path, output_dir, frame_interval=30):
+def extract_frames(video_path, output_dir, frame_interval=3):
     """
     从视频中提取帧并保存为图片
     

@@ -1,3 +1,4 @@
+# 使用指定数据集训练脚本
 from ultralytics import YOLO
 
 def main():

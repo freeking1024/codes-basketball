@@ -1,3 +1,5 @@
+# 训练集测试集划分脚本
+# 将 shoot 文件夹下的数据按照指定比例拆分为训练集和验证集
 import os
 import shutil
 import random

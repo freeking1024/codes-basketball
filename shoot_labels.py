@@ -1,3 +1,4 @@
+# 使用训练好的模型对指定路径下的所有图片进行检测，并将检测结果保存在与 images 同级的 labels 目录下
 from ultralytics import YOLO
 import os
 from pathlib import Path
