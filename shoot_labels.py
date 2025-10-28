@@ -98,8 +98,8 @@ def save_detection_results(results, label_path, class_names):
 
 if __name__ == "__main__":
     # 修改为你的 best.pt 路径和输入图片目录路径
-    model_path = "/home/jiahao.wu/DATACENTER1/basketball/codes/best.pt"
-    images_directory = "/home/jiahao.wu/DATACENTER1/basketball/datasets/screenshot"
+    model_path = "/home/jiahao.wu/DATACENTER1/basketball/codes/runs/train/yolo11n-custom2/weights/best.pt"
+    images_directory = "/home/jiahao.wu/DATACENTER1/basketball/datasets/blockshot/images"
     confidence_threshold = 0.30
     
     run_detection_and_save_labels(model_path, images_directory, confidence_threshold=confidence_threshold)
